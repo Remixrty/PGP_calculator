@@ -1,0 +1,53 @@
+body {
+    display:inline;
+}
+
+.head {
+    background: linear-gradient(60deg, rgb(147, 147, 238), pink);
+    text-align: center;  
+    width: 100vw;
+    position: fixed;
+    top: 0%;
+    z-index: 999;
+}
+
+.input {
+    margin-right: 25px;
+}
+
+.svgris {
+    width: 50px;
+    height: 50px;
+    overflow: auto;
+}
+
+.ris {
+    stroke: black;
+    border: 5px;
+    fill: rgba(180, 180, 255, 0.274);
+    width: 0px;
+    height: 0px;
+}
+
+.iris {
+    stroke: black;
+    border: 5px;
+    fill: rgba(0, 0, 0, 0.123);
+
+    width: 0px;
+    height: 0px;
+}
+
+.mainRis {
+    margin: auto;
+}
+
+.cont {
+    margin: 20px;
+    width: 100vh;
+}
+
+.inputFields {
+    margin-top: 36px;
+    padding: 30px;
+}
